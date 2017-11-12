@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style >
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			height:100vh;
+			width:100vw;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #e74c3c;
+		}
+		.container {
+			width: 700px;
+			height: 60%;
+			background-color: white;
+			position: relative;
+
+		}
+
+		button {
+			float: right;
+
+		}
+		h1{
+			color: #e74c3c;
+			margin-left: 20px;
+
+		}
+		.newQuote{
+
+			width: 500px;
+			
+			margin-left: 100px;
+			margin-top: 30px;
+		}
+		#twitter{
+			color: #e74c3c;
+			margin-left: 70px;
+			margin-top: 60px;
+
+		}
+		#tumblrQuote{
+			color: #e74c3c;
+			
+			margin-top: 60px;
+
+		}
+		#quoteIcon{
+			color: #e74c3c;
+
+		}
+		.btnQuote{
+			padding: 15px 25px;
+			font-size: 24px;
+			cursor: pointer;
+			text-align: center;
+			text-decoration: none;
+			outline: none;
+			color: #fff;
+			background-color: #e74c3c;
+			border: none;
+			border-radius: 15px;
+			box-shadow: 0 9px #9a0f0f;
+			margin-right: 50px;
+			margin-top: 70px;
+
+		}
+		h4{
+			color: #e74c3c;
+			margin-top: 30px;
+			margin-left: 350px;
+		}
+        .shareORquote{
+        	position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+            margin-bottom: 30px;
+        }
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="newQuote">
+			<i id="quoteIcon" class="fa fa-quote-left fa-2x" aria-hidden="true"></i>
+			<h1 class="quote">A good example is far better than a good precept!</h1>
+			<h4><p class="auteur">-Dwight L. Moody</p></h4>
+		</div>
+		<div class="shareORquote">
+			<button class="btnQuote">new quote</button>
+			<a id="tweetQuote" class="btn btn-info" href="" target="_blank">
+				<i id="twitter" class="fa fa-twitter-square fa-5x" aria-hidden="true"></a></i>
+				<a id="tumblrQuote" class="btn btn-info" href="#" target="_blank">
+					<i class="fa fa-tumblr-square fa-5x" aria-hidden="true"></i></a>
+
+				</div>
+
+
+
+			</div>
+
+			<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="main.js"></script>
+		</body>
+		</html>

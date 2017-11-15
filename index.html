@@ -15,6 +15,7 @@
 			width:100vw;
 			display: flex;
 			justify-content: center;
+			flex-direction:column;
 			align-items: center;
 			background-color: #e74c3c;
 		}
@@ -79,13 +80,19 @@
 			margin-top: 30px;
 			margin-left: 350px;
 		}
-        .shareORquote{
-        	position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-            margin-bottom: 30px;
-        }
+		.shareORquote{
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin-bottom: 30px;
+		}
+
+		p{
+			color: white;
+			margin-top: 30px;
+			
+		}
 		
 	</style>
 </head>
@@ -99,15 +106,14 @@
 		<div class="shareORquote">
 			<button class="btnQuote">new quote</button>
 			<a id="tweetQuote" class="btn btn-info" href="" target="_blank">
-				<i id="twitter" class="fa fa-twitter-square fa-5x" aria-hidden="true"></a></i>
+				<i id="twitter" class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
 				<a id="tumblrQuote" class="btn btn-info" href="#" target="_blank">
 					<i class="fa fa-tumblr-square fa-5x" aria-hidden="true"></i></a>
 
 				</div>
 
-
-
 			</div>
+			<p>by kaoula ben hammadi</p>
 
 			<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 			<script type="text/javascript" src="main.js"></script>

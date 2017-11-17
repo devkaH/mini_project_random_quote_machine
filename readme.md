@@ -14,6 +14,8 @@ The following screenshot shows my App:
 	<img src="appImg.png">
 </p>
 
+To give you more of an idea, have a look at the demo <a href="https://devkah.github.io/random_quote_machine/">here</a>.
+
 ## What I have learned
 
 * Use the Flexible Box Layout Module to postion in the elements of my page.
